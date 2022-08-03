@@ -1,0 +1,117 @@
+body {
+  background: linear-gradient(30deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+h1, h2 {
+  color: #EEE9D2;
+  text-shadow: 2px 2px black;
+}
+
+h2 {
+  margin: 30px 0px 0px 0px;
+}
+p {
+  font-weight: 500;
+  color: #EEE9D2;
+  margin: 10px auto 20px auto;
+  text-shadow: 2px 2px black;
+}
+
+i {
+  color: #EEE9D2;
+  font-size: 30px;
+  padding: 10px 10px;
+}
+i:hover {
+ color: #EEE9D2;
+}
+
+img {
+  width: 70%;
+  border: 10px solid #EEE9D2;
+  border-radius: 100%;
+  margin-top: 30px;
+  box-shadow:
+    rgba(238, 233, 210, 0.4) 5px 5px,
+    rgba(238, 233, 210, 0.3) 10px 10px,
+    rgba(238, 233, 210, 0.2) 15px 15px,
+    rgba(238, 233, 210, 0.1) 20px 20px,
+    rgba(238, 233, 210, 0.05) 25px 25px;
+}
+
+a {
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: #003566;
+  color: #fffceb;
+  border-radius: 5px;
+  text-shadow: 2px 2px black;
+}
+
+.button {
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+  margin: 30px 0px 50px 0px;
+}
+.social-icons {
+padding: 5px 20px 5px 20px;
+/* margin: 0px 10px 10px 0px; */
+height: 50px 50px;
+}
+
+a:hover {
+  background-color: #BDBAAA;
+  transition: 0.25s ease;
+}
+
+.container {
+  width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
